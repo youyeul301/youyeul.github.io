@@ -1,0 +1,6 @@
+.maindep>li:first-child{background:#004795;}
+.maindep>li:first-child span{color:#fff}
+.maindep>li:last-child{background:#fff;}
+.maindep>li:last-child span{color:#004795}
+.subdep{position:absolute;left:410px;top:83px;overflow:hidden;display:none;}
+.subdep3{position:absolute;left:350px;top:83px;overflow:hidden;display:block;}

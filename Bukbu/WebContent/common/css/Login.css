@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@import "reset.css";
+
+#loginContainer{
+	width:1000px;
+	margin:190px auto;
+	text-align:center;
+}
+h1{
+	font-size:28px;
+}
+#loginContainer input{
+	width:476px;
+	margin:10px;
+	padding:10px;
+}
+
+#loginBtn{
+	background:url('../images/login.jpg');
+	width:500px;
+	height:55px;
+	margin-bottom:100px;
+}
+#loginContainer #membershipJoin{
+	background:url("../images/membershipJoin.jpg") no-repeat;
+	width:70px;
+	height:32px;
+}

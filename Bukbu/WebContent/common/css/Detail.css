@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import "reset.css";
+
+@charset "utf-8";
+
+/* ***** butten ***** */
+/* btn_area */
+.btn_area {min-height:1px;margin-top:40px;padding:0 1px;font-size:0;}
+.btn_area.topline {padding-top:30px; border-top:1px solid #ccc;}
+.btn_area a {margin:0 12px;}
+.btn_area li {text-align:center;}
+.btn_area .left {float:left;}
+.btn_area .left a {display:block;float:left;margin:0 8px 0 0;}
+.btn_area .right {float:right;}
+.btn_area .right a {display:block;float:left;margin:0 0 0 8px;}
+.btn_area .mt { margin-top:-45px;}
+.btn_area:after {display:block;clear:both; content:"";height:0;}
+.in_btn_area_center{text-align:center; padding-bottom:2px;}
+.in_btn_area_center a{margin:0 10px;}
+
+/* btn_type */
+.btn {display:inline-block; border-radius:2px; transition:all 0.3s; vertical-align:middle; overflow:hidden;}
+.btn {background-color:#fff; border:1px solid #777; font-size:15px; color:#333; height:43px; line-height:43px; padding:0 20px; min-width:63px; text-align:center;}
+.btn:hover {background-color:#f6f6f6; color:#333;}
+
+.btn.list_bt, .btn.close_bt, .btn.link_bt {padding-right:50px; min-width:33px; text-align:left; position:relative;}
+.btn.link_bt {padding-right:40px;}
+.btn.list_bt:after, .btn.close_bt:after, .btn.link_bt:after {content:""; position:absolute; top:13px; right:0; width:50px; height:16px; background-repeat:no-repeat; background-position:20px center;}
+.btn.list_bt:after {background-image:url(../images/btn_list.png);}
+.btn.close_bt:after {background-image:url(../images/btn_close.png);}
+.btn.link_bt:after {background-image:url(../images/btn_link.png); width:40px;}
+
+.btn.result_bt {background-color:#004795; border:0 none; color:#fff; height:45px; line-height:45px;}
+.btn.result_bt:hover {background-color:#005bbf;}
+
+.inp_text,
+.textarea{border:1px solid #ccc;font-family:'Noto Sans Korean';color:#666;font-size:15px;font-weight:normal;}
+.inp_text {height:38px;padding:0 10px;line-height:38px;overflow:hidden;}
+
+.textarea {padding:10px;}
+
+/* ***** table ***** */
+table{width:100%;border-collapse:collapse;}
+table th,table td{vertical-align:middle;}
+table caption {display:none;}
+
+/* ***** //table ***** */
+
+/* form_list */
+.form_list {position:relative;border:2px solid #004795;border-width:2px 0 1px 0;}
+.form_list th, .form_list td {border-top:1px solid #ccc;font-size:15px;}
+.form_list tr:first-child th, .form_list tr:first-child td {border-top:0;}
+.form_list th {background-color:#f8fafc;color:#004795;}
+.form_list tbody th, .form_list tbody td {padding:14px 0 14px 40px;text-align:left;}
+.form_list th span {display:inline-block;height:5px;margin:0 5px 0 -11px;line-height:7px;vertical-align:middle;}
+
+.form_list .btn {margin-left:10px;}
+.form_list .atSign {display:inline-block;width:30px;color:#333;vertical-align:middle;text-align:center;}
+
+.txt_guide {color:#999;font-size:14px;}
+span.txt_guide {margin-left:10px;}
+p.txt_guide {margin-top:7px;}

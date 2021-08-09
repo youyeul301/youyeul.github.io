@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+@import "reset.css";
+@import "sub_basic.css";
+
+#joinContainer{
+	width:980px; 
+	margin:94px auto;
+	width:980px;
+	font-family:NanumGothic;
+}
+#joinContainer div.subTit{
+	position:relative;
+	padding:25px 0 39px;
+	border-bottom:1px solid #e0e0e0;
+	
+}
+#joinContainer div.subTit h2{
+	font:bold 50px NanumGothic;
+	color:#444;
+	text-align:center;
+	letter-spacing:-3px;
+}
+#joinContainer div.joinContent{
+	/*margin-top:60px !important;*/
+	margin-top:88px;
+	text-align:left;
+}
+#joinContainer .joinContent form div.title{
+	font:bold 20px NanumGothic;
+	letter-spacing:-1px;
+	color:#333;
+	padding-top:8px;
+	background:url(../images/join/line50x3.gif) no-repeat left top;
+}
+.joinFormBtn{
+	text-align:right
+}
+#joinContainer .joinContent form .cont1 .agreeList{
+	border-top:2px solid #6a7788;
+	margin-top:20px;
+}
+#joinContainer .joinContent form .cont1 .agreeListList>ul{
+	overflow:hidden;
+}
+#joinContainer .joinContent form .cont1 .agreeList>ul>li{
+	border-bottom:1px solid #e0e0e0;
+}
+#joinContainer .joinContent form .cont1 .agreeList>ul>li>div.pBox{
+	overflow:hidden;
+	padding:13px 0 16px 20px;
+	background:none;
+	position:relative;
+}
+#joinContainer .joinContent form .cont1 .agreeList>ul>li>div.pBox p.qTit{
+	font-size:15px;
+	letter-spacing:-1px;
+}
+#joinContainer .joinContent form .cont1 .agreeList>ul>li>div.pBox>p.qTit>input{
+	margin-right:20px;
+}
+#joinContainer .joinContent form .cont1 .agreeList>ul>li>div.pBox>p.qTit>label{
+	font-weight:bold;
+	text-decoration:none;
+	color:#333;
+}
+#joinContainer .joinContent form .cont1 .agreeList>ul>li>div.pBox>span.qBtn{
+	display:block;
+	border-right:1px solid #e0e0e0;
+	border-left:1px solid #e0e0e0;
+	position:absolute;
+	top:0;
+	right:0;
+	padding:22px 15px;
+}
+#joinContainer .joinContent form .cont1 .agreeList>ul>li>div.pBox>span.qBtn>a{
+	display:block;
+	text-decoration:none;
+	color:#333;
+}	
+#joinContainer .joinContent form .cont1 .agreeList>ul>li>div.pBoxDiv{
+	background:#f7f7f7;
+	padding:12px 55px 13px;
+	border:1px solid #e0e0e0;
+	border-bottom:none;
+	line-height:21px;
+	display:none;
+}
+#joinContainer .joinContent form .cont1 .agreeList>ul>li>div.pBoxDiv>p.bold{
+	font-weight:bold;
+}
+#joinContainer .joinContent form .cont1 .agreeList>ul>li>div.pBoxDiv>p.mt20{
+	margin-top:20px;
+}
+#joinContainer .joinContent form .cont1 .agreeList>ul>li>div.pBoxDiv .redB{
+	color:#d04041;
+}
+#joinContainer .joinContent form .cont1 .agreeList>ul>li>div.pBoxDiv>div.t{
+	margin-top:20px;
+	border-top:1px solid #ccc;
+}
+#joinContainer .joinContent form .cont1 .agreeList>ul>li>div.pBoxDiv>div.t th{
+	background:#f7f7f7;
+	border:1px solid #e0e0e0;
+	text-align:center;
+	padding:10px 20px 10px;
+	color:#333;
+	
+}
+#joinContainer .joinContent form .cont1 .agreeList>ul>li>div.pBoxDiv>div.t td{
+	border:1px solid #e0e0e0;
+	text-align:center;
+	padding:10px 20px 10px;
+	background:#fff;
+}
+#joinContainer .joinContent form .cont1>p.allCheck{
+	overflow:hidden;
+	padding:13px 0 16px 20px;
+	position:relative;
+	border:1px solid #e0e0e0;
+	font-size:15px;
+	margin-top:15px;
+	background:#f7f7f7;
+}
+#joinContainer .joinContent form .cont1>p.allCheck>input.checkAll{
+	margin-right:20px;
+}
+#joinContainer .joinContent form .cont1>p.allCheck>label{
+	text-decoration:none;
+	color:#333;
+	font-weight:bold;
+}
+#joinContainer .joinContent form .cont2{
+	margin-top:60px; 
+	font-weight:bold;
+	color:#333;
+	letter-spacing:1px; 
+}
+#joinContainer .joinContent form .cont2>div.chkv{
+	margin-top:25px;
+	background:url(../images/join/log_chk_v.gif) no-repeat 0px 8px;
+	padding-left:14px;
+}
+#joinContainer .joinContent form .cont2 div.boardType{
+	border-top:2px solid #6a7788;
+	margin-top:15px;
+}
+#joinContainer .joinContent form .cont2 div.boardType table tbody tr th{
+	background:#f7f7f7;
+	border:1px solid #e0e0e0;
+	border-top:none;
+	text-align:left;
+	padding:18px 0px 16px 20px;
+	color:#333;
+}
+#joinContainer .joinContent form .cont2 div.boardType table tbody tr th:first-child{
+	border-left:none;
+}
+#joinContainer .joinContent form .cont2 div.boardType table tbody tr td{
+	text-align:left;
+	padding:10px 20px 10px;
+	border-bottom:1px solid #e0e0e0;
+}
+#joinContainer .joinContent form .cont2 div.boardType table tbody tr td input.emailRear, .emailFront{
+	width:160px;
+}
+#joinContainer .joinContent form .cont2 div.boardType td input[type='text'], .boardType td input[type="password"]{
+	height:22px;
+	line-height:22px;
+	width:300px;
+	font-family:NanumGothic;
+}
+#joinContainer .joinContent form .cont2 div.boardType td select.addrSelect{
+	width:150px;
+}
+#joinContainer .joinContent form .cont2 div.boardType td input.userCellNo2{
+	width:75px;
+}
+#joinContainer .joinContent form .cont2 div.boardType td input.userCellNo3{
+	width:75px;
+}
+#joinContainer .joinContent form .cont2 div.boardType td select{
+	height:29px;
+	width:75px;
+	font-family:NanumGothic;
+}
+#joinContainer .joinContent form .cont2 div.boardType table tbody tr td p.smallNotice{
+	font-size:12px;
+	color:#a94442;
+	letter-spacing:-0.3px;
+	padding-top:3px;
+}
+#joinContainer .joinContent form .cont2 div.loginFormBtn{
+	margin:0 auto;
+	width:980px;
+	padding-top:30px;
+	text-align:center;
+}
+
+/*** Join Complete Page ***/
+#joinContainer .loginCompleteDiv{
+	color:#333;
+	font-weight:bold;
+	margin-top:40px;
+	padding-top:206px;
+	text-align:center;
+	background:url(../images/join/log_welcome.jpg) no-repeat 0px 0px;
+}
+#joinContainer .loginCompleteDiv>div:first-child{
+	font-size:25px;
+	padding-top:20px;
+	letter-spacing:-1px;
+	line-height:37px;
+}
+#joinContainer .loginCompleteDiv>div:first-child span.redC{
+	color:#d04041;
+}
+#joinContainer .loginCompleteDiv>div.loginFormBtn2{
+	margin:0 auto;
+	width:980px;
+	text-align:center;
+	padding-top:30px; 
+}
+#joinBtn{
+	background:url('../images/join/log_join_btn2.gif') no-repeat;
+	width:130px;
+	height:55px;
+}

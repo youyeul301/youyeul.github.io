@@ -1,0 +1,61 @@
+
+@font-face {
+  font-family: 'NanumGothic';
+  src: url('font/NanumGothic.eot');
+  src: url('font/NanumGothic.eot?#iefix') format('embedded-opentype'),
+       url('font/NanumGothic.woff') format('woff'),
+       url('font/NanumGothic.ttf') format('truetype'),
+       url('font/NanumGothic.svg#NanumGothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumGothicBold';
+  src: url('font/NanumGothicBold.eot');
+  src: url('font/NanumGothicBold.eot?#iefix') format('embedded-opentype'),
+       url('font/NanumGothicBold.woff') format('woff'),
+       url('font/NanumGothicBold.ttf') format('truetype'),
+       url('font/NanumGothicBold.svg#NanumGothicBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body{font-size:13px; font-family:'NanumGothic', dotum, sans-serif; color:#666;}
+#header{border-bottom:1px solid #d4d4d4}
+#header a{vertical-align:top;}
+.maindep{overflow:hidden;height:43px;margin-top:7px;}
+.maindep ul a:hover{color:#004795;text-decoration:none;}
+.maindep ul a:visited,.maindep ul a:active,.maindep ul a:focus,.maindep ul a:link{text-decoration:none;}
+.maindep span{font-size: 16px;color:#fff;display:inline-block;margin-top: 10px;font-weight:Bold}
+.maindep>li{border-radius: 3px 3px 0 0;text-align:center;float:left;width: 179px;height: 43px;margin-right:5px;}
+.maindep>li:first-child{background:#fff;}
+.maindep>li:first-child span{color:#004795}
+.subdep{position:absolute;left:410px;top:83px;overflow:hidden}
+.subdep>li{float:left;padding:0 30px}
+.subdep li:last-child{padding-right:0;}
+.subdep>li a{color: #000;font-size: 17px;font-weight:600;}
+
+
+.subdep2{position:absolute;left:410px;top:83px;overflow:hidden;display:none;}
+.subdep2>li{float:left;padding:0 30px;}
+.subdep2 li:last-child{padding-right:0;}
+.subdep2>li a{color: #000;font-size: 17px;font-weight:600;}
+
+
+.subdep3{position:absolute;left:350px;top:83px;overflow:hidden;display:none;}
+.subdep3>li{float:left;padding:0 30px;}
+.subdep3 li:last-child{padding-right:0;}
+.subdep3>li a{color: #000;font-size: 17px;font-weight:600;}
+
+.signdep{overflow:hidden;margin-top:10px;}
+.signdep>li{float:left;border-right: 1px solid #fff;height:15px;padding:0 10px}
+.signdep>li:last-child{border:0 none;}
+ .signdep>li a{color: #fff;font-size: 10px;}
+
+.bluezone{height:50px;background:#004795;}
+.whitezone{background:#fff;height:85px;width:1000px;margin:0 auto;}
+.whitezone h1{margin:0;padding:0;display:inline-block}
+.whitezone div{padding-top:18px;}
+.h_left{float:left;}
+.h_right{float:right}
+.h_contain{width:1000px;margin:0 auto;position:relative;}
+.h_contain:after{clear:both;content="";display:block}
