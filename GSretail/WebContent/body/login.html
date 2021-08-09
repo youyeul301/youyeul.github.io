@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="body/common/login.css?ver=1" rel="stylesheet" />
+<script type="text/javascript">
+function insert(){
+	var pw1=document.forms.form1.pw1; 
+	var id=document.forms.form1.id;
+	var job=document.forms.form1.job.value;
+	
+	var adrr=[id,pw1];
+	for(var i=0;i<adrr.length;i++){
+		if(adrr[i].value==null||adrr[i].value==""){
+			alert(adrr[i].labels[0].innerHTML+"을 확인 해주세요");
+			adrr[i].focus();
+			return;
+		}
+	}
+	if(job==null||job==""){
+		alert("직업이 선택 되지 않았습니다.");
+		return;
+	}
+	form1.submit();
+}
+</script>
+</head>
+<body>
+	<div id="bdwrap">
+		<div id="bd">
+			<h3>GS리테일 Login</h3>
+			<div id="loginwrap">
+				<div id="login">
+					<div class="gsloging">GS리테일 <span>로그인</span></div>
+					<ul>
+						<li>기존 GS리테일 사이트에 가입하신</li>
+						<li>아이디와 비밀번호로 로그인 하실 수 있습니다.</li>
+					</ul>
+					<div class="loginform">
+						<form action="../loginProc.jsp" method="post" name="form1">
+							<div class="id_pw">
+								<label for="id">아이디</label><input type="text" name="id" id="id"/>
+								<label for="pw1">비밀번호</label><input type="text" name="pw1" id="pw1"/>
+							</div>
+							<p>
+								<input type="checkbox" name="idsave" id="idsave"/><label for="idsave">아이디 저장</label>
+							</p>
+							<input type="button" onclick="insert()" value="LOGIN" id="fmsub"/>
+							<div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div id="joinwrap">
+				<div class="join">
+					<p>
+					회원가입을 하시면 GS리테일의 다양한 혜택을<br/>이용하실 수 있습니다.
+					</p>
+					<div><a href="join.html"><button>회원가입 ></button></a></div>
+				</div>
+				<div class="find">
+					<p>아이디 비밀번호를 잊으셨나요?<br/>아이디 찾기와 비밀번호 찾기를 이용해 주세요.</p>
+					<div><a href="#"><button>아이디 찾기 ></button></a><a href="#"><button>비밀번호 찾기 ></button></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
